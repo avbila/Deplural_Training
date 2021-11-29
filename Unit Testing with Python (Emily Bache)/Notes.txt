@@ -16,3 +16,18 @@ module 2: unittest module used to create simple unit tests.
 module 3:
 - creating a test double (useful for dynamic data),
     lecture: (4) unit testing helps you with design
+
+module 4: using pytest.
+- setting up pytest test runner, lecture(3)
+- test fixtures, lecture:
+    (5):@pytest.fixture
+    (6):yield statements, using tmpdir
+- conftest.py to set fixtures for all tests
+- pytest.ini lecture (8)
+
+module 5: doc test
+
+module 6: Test doubles
+-stub [to impersonate sensors] use Mock() function from unittest
+-fakes [html testing]
+-dummy [to input a None value]
